@@ -332,7 +332,7 @@ export const getUnixTs = () => {
   return new Date().getTime() / 1000;
 };
 
-const DEFAULT_TIMEOUT = 15000;
+const DEFAULT_TIMEOUT = 15000 * 10;
 
 export async function sendSignedTransaction({
   signedTransaction,
