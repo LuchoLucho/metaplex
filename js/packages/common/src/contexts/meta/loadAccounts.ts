@@ -342,7 +342,7 @@ const pullEditions = async (
     );
     setOf100MetadataEditionKeys = [];
   };
-
+  debugger;
   const processEditions = (returnedAccounts: MultipleAccounts) => {
     for (let j = 0; j < returnedAccounts.array.length; j++) {
       processMetaData(

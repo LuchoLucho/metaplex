@@ -48,6 +48,7 @@ const getMultipleAccountsCore = async (
 
   if (unsafeRes.result.value) {
     const array = unsafeRes.result.value as AccountInfo<string[]>[];
+    debugger;
     return { keys, array };
   }
 
